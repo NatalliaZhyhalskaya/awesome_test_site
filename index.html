@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome test site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    
+</head>
+<body>
+    <div class="message_box" id="message">
+        <div class="message_wraper">
+            <h3 class="message_title">Спасибо за отправленное сообщение</h3><br>
+            <p class="message_close" onclick="close_message_box()">Закрыть</p>
+        </div>
+        
+    </div>
+    <header class="header">
+        <div class="logo_contacts">
+                    <div class="logo">
+                        <div >
+                            <img class="logo_img" src="img/logo.png" alt="Beatuful logo our company">
+                        </div>
+                        <div class="logo_text">
+                            <h3 class="logo_text_title">Название компании</h3>
+                            <h3 class="logo_text_subtitle">самая клевая компания</h3>
+                        </div>
+                </div>
+                    <div class="contacts">
+                        <h2 ><a class="contacts_phone" href=”tel:+74997777777”>+7(499) 777-77-77</a></h2>
+                        <h2 ><a class="contacts_phone" href=”tel:+74997777777”>+7(499) 777-77-77</a></h2>
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    <section class="form_bg">
+        <div class="container">
+            
+            <div class="form">
+                <h4 class="form_title">форма с кнопкой</h4>
+                <form class="form_box" id="form" name="form">
+                    <h3 class="form_subtitle">оставь телефон и получи что-то офигенное</h3>
+                    <input class="form_phone" type="tel" name="phone" placeholder="Введите номер" required/>
+                    <button class="form_btn" type="submit"><p class="form_btn_text">получить</p></button>
+                </form>
+            </div>
+        </div>
+        
+        
+    </section>
+    <section class="slider_box">
+        <div class="container">
+            <div class="slider_wraper">
+                <div class="wrap">
+                    <h3 class="slider_title">Тут у нас слайдер</h3>
+                    <div class="slider">
+                    <ul class="slides-photo" id="slides">
+                        <li class="slide showing"><img class="slide_img" src="img/1.jpg"></li>
+                        <li class="slide"><img class="slide_img" src="img/2.jpg"></li>
+                        <li class="slide"><img class="slide_img" src="img/3.jpg"></li>
+                    </ul>
+                </div>
+                <div class="slider-circles" id="circles">
+                    <div class="circle show"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="container text_box">
+        <div class="text_wraper">
+            <h4 class="text_box_title">просто текстовый блок</h4>
+            <p class="text_box_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis arcu sit amet commodo. Nullam ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi, id pharetra tellus ullamcorper volutpat. Sed lacinia placerat accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.</p>
+        </div>
+    </section>
+    <section class="container">
+        <div class="discription_box">
+            <h5 class="discription_title">Калькулятор</h5>
+            <h5 class="discription_subtitle">(стоимость пользователь узнает по телефону)</h5>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/card_1.jpg">
+                    </div>
+                    <p class="card_text">Одностворчатое</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/card_2.jpg">
+                    </div>
+                    <p class="card_text">Двухстворчатое</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/card_3.jpg">
+                    </div>
+                    <p class="card_text">Трехстворчатое</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/card_4.jpg">
+                    </div>
+                    <p class="card_text">Балконный блок</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/card_5.jpg">
+                    </div>
+                    <p class="card_text">Остекление балкона</p>
+                </div>
+            </div>
+        </div>
+        <form class="calculator">
+            <div class="calculator_wraper">
+                <div class="window_wraper">
+                    <div class="window_box">
+                        <h5 class="window_box_width">ширина</h5>
+                        <div class="window_box_wraper">
+                            <h5 class="window_box_hight">высота</h5>
+                            <img class="window_box_img" src="img/card_1.jpg">
+                        </div>
+                        <div class="window_measure">
+                            <div class="measure">
+                                <p class="measure_width">ширина, см</p>
+                                <p class="measure_hight">высота, см</p>
+                            </div>
+                            <div class="measure_input">
+                                <input class="measure_input_width" type="number" placeholder="120">
+                                <p class="measure_img">x</p>
+                                <input class="measure_input_height" type="number" placeholder="120">
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="window_discription_box">
+                        <h5 class="discription_form_title">Одностворчатое окно KBE</h5>
+                        <h6 class="discription_form_subtitle">1. Критерий выбора </h6>
+                        <div class="discription_inputs">
+                            <input class="discription_input" id="value_1" type="checkbox">
+                            <label class="discription_label"  for="value_1">пункт выбора 1</label>
+                            <input class="discription_input" id="value_2" type="checkbox" value="пункт выбора 2">
+                            <label class="discription_label" for="value_2">пункт выбора 2</label>
+                            <input class="discription_input" id="value_3" type="checkbox" value="пункт выбора 3">
+                            <label class="discription_label" for="value_3">пункт выбора 3</label>
+    
+                        </div>
+                        <h6 class="discription_form_subtitle">2. Выберите открывание створки</h6>
+                        <select class="discription_form_options" name="select">
+                            <option class="discription_form_option" selected value="s1">Не открывается</option>
+                            <option class="discription_form_option" value="s2">Открывается</option>
+                            <option class="discription_form_option" value="s3">Открывается, но плохо</option>
+                           </select>
+        
+                    </div>
+
+                </div>
+                
+                <div class="window_btn_box">
+                    <input class="window_phone" type="tel" name="phone_window" placeholder="Введите номер"/>
+                    <button class="window_btn">рассчитать</button>
+                </div>
+
+            </div>
+            
+        </form>
+
+    </section>
+
+    <footer class="footer_bg">
+        <div class="footer_text container">
+            <h5 class="footer_title">просто</h5>
+            <h5 class="footer_subtitle">скромный футер</h5>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
